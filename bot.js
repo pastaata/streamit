@@ -54,3 +54,6 @@ if (message.content.startsWith(adminprefix + 'rther')) {
 
 
     });
+
+
+client.login(process.env.BOT_TOKEN);
