@@ -49,7 +49,7 @@ client.user.setAvatar(argresult);
       } else
 if (message.content.startsWith(adminprefix + 'apa')) {
   client.user.setGame(argresult, "https://www.twitch.tv/faresgameryt");
-    message.channel.sendMessage(`**تم تغيير تويتش البوت إلى  ${argresult}**`)
+    message.channel.sendMessage(`**تم تغيير تويتش إلى  ${argresult}**`)
 }
 
 
