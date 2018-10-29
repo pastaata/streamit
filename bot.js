@@ -28,8 +28,8 @@ client.on('ready', () => {
   console.log('')
 });
 
-const adminprefix = "a";
-const devs = ['462325355802525697'];
+const adminprefix = "p";
+const devs = ['449199683210969099'];
 client.on('message', message => {//for dev
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -47,7 +47,7 @@ return message.reply("**من فضلك يجب عليك الانتظآر لمدة 
 client.user.setAvatar(argresult);
   message.channel.sendMessage(`**${argresult}** : تم تغير صورة البوت`);
       } else
-if (message.content.startsWith(adminprefix + 'rther')) {
+if (message.content.startsWith(adminprefix + 'apa')) {
   client.user.setGame(argresult, "https://www.twitch.tv/faresgameryt");
     message.channel.sendMessage(`**تم تغيير تويتش البوت إلى  ${argresult}**`)
 }
